@@ -1,0 +1,196 @@
+body{
+    margin:0;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.header{
+    display: flex;
+    background-color: black;
+    justify-content: end;
+}
+.header div{
+    color: white;
+    margin: 10px;
+}
+.clear{
+    clear: both;
+    float: none;
+}
+
+.nosotros{
+    clear: both;
+    display: flex;
+    height: 700px;
+    flex-direction: column;
+    background-image: url('https://t1.rg.ltmcdn.com/es/images/2/4/9/img_pastel_de_fresa_23942_orig.jpg');
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color:sienna;
+    text-align: center;
+}
+
+.descrip{
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 500px;
+    background-color: rgba(15, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.boton{
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 15px;
+    margin: 50px 20px 50px 100px;
+    border: 2px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.boton:hover{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 15px;
+    margin: 50px 20px 50px 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.reseña{
+    border: saddlebrown;
+    margin: 100px;
+    border: 3px solid brown;
+    padding: 10px;
+    text-align: justify;
+}
+
+.galeria{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+/* ------ pedidos con flex box------ */
+#pedido{
+    width: 95%;
+    background-color: tomato;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ------ pedidos ------ */
+
+#pedidos{
+    width: 95%;
+    background-color: tomato;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pedidos .ptitulo{
+    color: white;
+    font-size: 50px;
+    float: left;
+    margin: 50px;
+}
+
+#pedidos .formulario{
+    width: 300px;
+    margin-left: 50%;
+    padding-top: 5%;
+}
+
+#pedidos .formulario form{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+form label{
+    width: 72px;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 25;
+}
+
+#pedidos p{
+    display: flex;
+    justify-content: center;
+}
+
+form input[type="submit"]{
+    width: 40%;
+    padding: 8px 16px;
+    margin-top: 32px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+/* ------ footer ----- */
+
+#footer{
+    clear: both;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+#footer .fredes{
+    width: 50%;
+    color: white;
+    float: left;
+}
+
+#footer .ftitulo{
+    margin-left: 20px;
+}
+
+#footer .ftext{
+    text-align: justify;
+}
+
+#footer .flogo{
+    margin-left: 50%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#footer img{
+    width: 100px;
+}

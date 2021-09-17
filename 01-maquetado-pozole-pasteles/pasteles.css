@@ -1,0 +1,362 @@
+body{
+    margin:0;
+}
+
+/* ---- header ---- */
+#header{
+    background-color: black;
+}
+
+#header .hlogo img{
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 5px;
+    border-radius: 5px;
+    width: 50px;
+}
+
+#header .hlinks{
+    color: white;
+    display: flex;
+    justify-content: end;
+}
+
+#header .hlinks p{
+    margin: 20px;
+    padding: 5px;
+}
+
+/* ---- contenido ---- */
+
+#nosotros{
+    background-image: url('https://t1.rg.ltmcdn.com/es/images/2/4/9/img_pastel_de_fresa_23942_orig.jpg');
+    background-size: cover;
+    height: 700px;
+}
+
+#nosotros h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color:sienna;
+}
+
+#nosotros .ancho{
+    width: 700px;
+}
+
+#nosotros p{
+    color: black;
+    font-size: 30px;
+    text-align: justify;
+    margin-left: 50px;
+    background-color: rgba(15, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.left{
+    float: left;
+}
+
+.boton{
+    background-color: rgba(0,0,0,0.5);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 15px;
+    margin: 50px 20px 50px 100px;
+    border: 2px solid black;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.boton:hover{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 15px;
+    margin: 50px 20px 50px 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* contenedor */
+
+#cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 200px;
+}
+
+#cont .contenido{
+    background-color: red;
+    margin: 5px;
+    text-align: center;
+    padding: 20px;
+}
+
+#new{
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+    align-items: center;
+}
+
+#new .reseña{
+    width: 50%;
+    float: left;
+    margin-left: 50px;
+}
+#new .reseña h2{
+    font-size: 50px;
+}
+
+#new .reseña p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+#new img{
+    width: 400px;
+    margin-left: 100px;
+}
+
+/* texto descriptivo */
+
+#texto{
+    border: 3px solid pink;
+    width: 60%;
+    margin: 30px auto 30px;
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px;
+}
+
+/* galeria */
+#galeria{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#gcont1{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin: 10px;
+}
+#gcont1 .item1 img{
+    width: 100%;
+    flex-grow: 1;
+}
+#gcont1 .item2 img{
+    width: 100%;
+    flex-grow: 2;
+}
+
+#gcont2{
+    margin: 10px;
+    width: 33%;
+}
+#gcont2 .item1 img{
+    width: 100%;
+}
+
+#gcont3{
+    margin: 10px;
+    width: 33%;
+}
+#gcont3 .item1 img{
+    width: 100%;
+}
+#gcont3 .item2 img{
+    width: 100%;
+}
+#gcont3 .item3 img{
+    width: 100%;
+}
+
+/* formulario */
+
+#formulario{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, salmon, white);
+    width: 90%;
+    margin: 0 auto;
+}
+
+#reseña{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 30px;
+    width: 100%;
+    margin-right: 50px;
+}
+#reseña h2{
+    text-align: center;
+    font-size: 50px;
+}
+#reseña p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+#formu{
+    background-color: rgb(251, 79, 79);
+    width: 700px;
+    padding: 30px;
+    margin: 50px;
+    border-radius: 15px;
+}
+#formu h3{
+    text-align: center;
+    background-color:brown;
+    width: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 12px 16px;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+}
+#formu p{
+    text-align: center;
+}
+
+form input[type="text"]{
+    width: 80%;
+    font-size:large;
+    padding: 12px 16px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+form input[type="email"]{
+    width: 80%;
+    font-size:large;
+    padding: 12px 16px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+form input[type="submit"]{
+    width: 40%;
+    padding: 8px 16px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+/* nuevo */
+
+#new2{
+    align-items: center;
+    width: 80%;
+    margin: 30px auto 30px;
+}
+
+#new2 img{
+    float: left;
+    width: 400px;
+    margin-right: 80px;
+}
+
+#new2 .reseña{
+    margin-left: 200px;
+}
+#new2 .reseña h2{
+    font-size: 50px;
+}
+
+#new2 .reseña p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* calificador */
+#calificador{
+    clear: both;
+    float: none;
+    margin: 150px auto 50px;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.estrella:hover{
+    background: url("estrella.png");
+    background-size: cover;
+    background-color:yellow;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    border: 0.5px solid white;
+}
+
+.estrella{
+    background: url("estrella.png");
+    background-size: cover;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    border: 0.5px solid white;
+}
+
+/* ---- footer ---- */
+
+#footer{
+    clear: both;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    /* position: relative; */
+}
+
+#footer .fredes{
+    width: 50%;
+    color: white;
+    float: left;
+}
+
+#footer .ftitulo{
+    margin-left: 20px;
+}
+
+#footer .ftext{
+    text-align: justify;
+}
+
+#footer .flogo{
+    margin-left: 50%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#footer img{
+    width: 100px;
+}

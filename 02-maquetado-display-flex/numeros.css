@@ -1,0 +1,19 @@
+.contenedor{
+    display: flex;
+    background-color: red;
+    padding: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contenedor div{
+    background-color: rgb(57, 163, 224);
+    color: white;
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    line-height: 230px;
+    font-size: 150px;
+    font-weight: bolder;
+}
